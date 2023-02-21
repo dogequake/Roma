@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanianNumLibrary", "RomanianNumLibrary\RomanianNumLibrary.csproj", "{A81F9FD8-F162-4208-8ED7-8EF8B3F770D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{244426C4-4E01-49F0-9AA4-B20FA8D06979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81F9FD8-F162-4208-8ED7-8EF8B3F770D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81F9FD8-F162-4208-8ED7-8EF8B3F770D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81F9FD8-F162-4208-8ED7-8EF8B3F770D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81F9FD8-F162-4208-8ED7-8EF8B3F770D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244426C4-4E01-49F0-9AA4-B20FA8D06979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244426C4-4E01-49F0-9AA4-B20FA8D06979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244426C4-4E01-49F0-9AA4-B20FA8D06979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244426C4-4E01-49F0-9AA4-B20FA8D06979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C0EA8E6-1CB6-4730-B7B4-58AFAFAFB769}
+	EndGlobalSection
+EndGlobal

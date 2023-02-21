@@ -1,0 +1,57 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock>Фамилия</TextBlock>
+            <TextBox></TextBox>
+            <TextBlock>Ваш пол</TextBlock>
+            <UniformGrid>
+                <RadioButton Content="Мужской"/>
+                <RadioButton Content="Женский"/>
+            </UniformGrid>
+            <DatePicker x:Name="DatePickerBirthdayS" ></DatePicker>
+            <TextBlock>Вы резедент румынии?</TextBlock>
+            <UniformGrid>
+                <RadioButton IsChecked="True" x:Name="RByes" Content="да"/>
+                <RadioButton x:Name="RBno" Content="ААААА НЕТ"/>
+            </UniformGrid>
+            <TextBlock>Ваш город</TextBlock>
+            <ComboBox>
+                <TextBlock x:Name="">Алба (Алба-Юлия)</TextBlock>
+                <TextBlock>Арджеш (Питешти)</TextBlock>
+                <TextBlock>Арад (Арад)</TextBlock>
+                <TextBlock>Бухарест</TextBlock>
+                <TextBlock>Бакэу (Бакэу)</TextBlock>
+                <TextBlock>Бихор (Орадя)</TextBlock>
+                <TextBlock>Бистрица-Нэсэуд (Бистрица)</TextBlock>
+                <TextBlock>Брэила (Брэила)</TextBlock>
+                <TextBlock>Ботошани (Ботошани)</TextBlock>
+                <TextBlock>Брашов (Брашов)</TextBlock>
+                <TextBlock>Бузэу (Бузэу)</TextBlock>
+                <TextBlock>Клуж (Клуж-Напока)</TextBlock>
+                <TextBlock>Кэлэраши (Кэлэраши))</TextBlock>
+                <TextBlock>Караш-Северин (Решица)</TextBlock>
+                <TextBlock>Констанца (Констанца)</TextBlock>
+                <TextBlock>Ковасна (Сфынту-Георге)</TextBlock>
+                <TextBlock>Дымбовица (Тырговиште)</TextBlock>
+                <TextBlock>Долж (Крайова)</TextBlock>
+                <TextBlock>Горж (Тыргу-Жиу)</TextBlock>
+                <TextBlock>Галац (Галац)</TextBlock>
+                <TextBlock>Джурджу (Джурджу)</TextBlock>
+                <TextBlock>Хунедоара (Дева)</TextBlock>
+                <TextBlock>Харгита (Меркуря-Чук)</TextBlock>
+                <TextBlock>Илфов (Буфтя)</TextBlock>
+                <TextBlock>Яломица (Слобозия)</TextBlock>
+                <TextBlock>Яссы (Яссы)</TextBlock>
+                <TextBlock>Мехединци (Дробета-Турну-Северин)</TextBlock>
+            </ComboBox>
+            <Button x:Name="GENERATE" Click="GENERATEClick">Сгенерировать</Button>
+        </StackPanel>
+    </Grid>
+</Window>
